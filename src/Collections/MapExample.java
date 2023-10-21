@@ -12,7 +12,7 @@ public class MapExample {
         hashMapEmployee.put("Alice", 23);
         hashMapEmployee.put("Bob", 29);
         hashMapEmployee.put("Charlie", 25);
-        hashMapEmployee.put("Bob", 20); // hashMap allows duplicate key, when accessed it gets the last know key
+        hashMapEmployee.put("Bob", 20);
 
         System.out.println("HashMap: Emplyee: " + hashMapEmployee.get("Bob"));
 
@@ -22,7 +22,7 @@ public class MapExample {
         treeMapEmployee.put("Alice", 23);
         treeMapEmployee.put("Bob", 29);
         treeMapEmployee.put("Charlie", 25);
-        treeMapEmployee.put("Bob", 20); // hashMap allows duplicate key, when accessed it gets the last know key
+        treeMapEmployee.put("Bob", 20);
 
         System.out.println("TreeMap: Emplyee: " + treeMapEmployee.get("Bob"));
     }

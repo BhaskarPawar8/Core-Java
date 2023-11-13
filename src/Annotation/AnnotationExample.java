@@ -8,13 +8,11 @@ public class AnnotationExample {
 
         Class<MyClass> clazz = MyClass.class;
 
-        Method method = clazz.getMethod("myMethod");
+        Method method = clazz.getMethod("anotherMethod");
 
         MyAnnotation myAnnotation = method.getAnnotation(MyAnnotation.class);
 
         if(myAnnotation != null){
-            
-
             String value = myAnnotation.value();
             System.out.println("Value: "+ value);
         }

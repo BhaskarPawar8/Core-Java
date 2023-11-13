@@ -4,7 +4,7 @@ import java.lang.annotation.Annotation;
 
 public class MyClass{
 
-    @MyAnnotation("custome valu")
+    @MyAnnotation("custome value")
     public void myMethod(){
 
     }

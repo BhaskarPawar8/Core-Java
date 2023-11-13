@@ -1,4 +1,4 @@
-package Bhaskar.GarbageCollection;
+package GarbageCollection;
 
 public class SampleClass {
 

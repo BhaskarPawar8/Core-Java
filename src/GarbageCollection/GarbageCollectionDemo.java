@@ -1,4 +1,4 @@
-package Bhaskar.GarbageCollection;
+package GarbageCollection;
 
 public class GarbageCollectionDemo {
 
@@ -9,6 +9,6 @@ public class GarbageCollectionDemo {
 
         System.gc();
 
-        System.out.println("System is running");
+        System.out.println("System is running after garbage collection");
     }
 }

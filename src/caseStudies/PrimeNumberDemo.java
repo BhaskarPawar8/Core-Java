@@ -1,6 +1,6 @@
-package CaseStudies;
+package caseStudies;
 
-public class primeNumberDemo {
+public class PrimeNumberDemo {
 
     public boolean isPrimeNumber(int i){
 
@@ -16,7 +16,7 @@ public class primeNumberDemo {
 
         int i = 13;
 
-        primeNumberDemo primeNumberDemo = new primeNumberDemo();
+        PrimeNumberDemo primeNumberDemo = new PrimeNumberDemo();
 
         System.out.println(i + "Is it Prime number? :  " + primeNumberDemo.isPrimeNumber(i));
 

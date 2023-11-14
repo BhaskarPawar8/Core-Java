@@ -1,4 +1,4 @@
-package CaseStudies;
+package caseStudies;
 
 public class ReverseStringDemo {
 

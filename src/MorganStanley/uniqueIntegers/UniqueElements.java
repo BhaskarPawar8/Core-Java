@@ -1,4 +1,4 @@
-package MorganStanley;
+package MorganStanley.uniqueIntegers;
 
 import java.util.*;
 

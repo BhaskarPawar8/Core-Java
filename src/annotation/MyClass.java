@@ -1,6 +1,4 @@
-package Annotation;
-
-import java.lang.annotation.Annotation;
+package annotation;
 
 public class MyClass{
 

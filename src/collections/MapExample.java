@@ -1,4 +1,4 @@
-package Collections;
+package collections;
 
 import java.util.HashMap;
 import java.util.Map;
@@ -24,6 +24,6 @@ public class MapExample {
         treeMapEmployee.put("Charlie", 25);
         treeMapEmployee.put("Bob", 20);
 
-        System.out.println("TreeMap: Emplyee: " + treeMapEmployee.get("Bob"));
+        System.out.println("TreeMap: Emplyee: " + treeMapEmployee.get("Charlie"));
     }
 }

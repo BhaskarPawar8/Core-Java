@@ -4,9 +4,7 @@ class A1 extends Thread{
 
     static int counter=0;
     public void  run(){
-
             counter = counter + 1;
-
     }
 }
 
@@ -14,10 +12,11 @@ class A1 extends Thread{
 
 public class DemoStatic {
 
-    public static void main(String[] args) throws InterruptedException {
+    public static void main(String[] args) throws  IllegalThreadStateException, InterruptedException {
 
-        for(int a =0; a <=10; a++) {
-            A1 obj1 = new A1();
+        A1 obj1 = new A1();
+
+        for(int a =0; a <=100; a++) {
             obj1.start();
             obj1.join();
         }

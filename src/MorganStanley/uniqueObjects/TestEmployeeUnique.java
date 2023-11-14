@@ -1,10 +1,10 @@
-package Collections;
+package MorganStanley.uniqueObjects;
 
 import java.util.*;
 
-public class TestCollections {
+public class TestEmployeeUnique {
 
-    public Set<Employe> returnUniqueElements(List<Employe> employeList){
+    public static Set<Employe> returnUniqueElements(List<Employe> employeList){
 
         Set<Employe> uniqueElements = new HashSet();
         if(Objects.nonNull(employeList)) {
@@ -29,22 +29,22 @@ public class TestCollections {
         System.out.println("Collection: "+ col);
 
         Employe em1 = new Employe();
-        em1.setName("Ramesh");
+        em1.setName("abc");
         em1.setAge(10);
 
         Employe em2 = new Employe();
-        em2.setName("Suresh");
+        em2.setName("pqr");
         em2.setAge(13);
 
         Employe em3 = new Employe();
-        em3.setName("Ramesh");
+        em3.setName("xyz");
         em3.setAge(10);
 
         Employe em4 = em3;
 
         List<Employe> employeeLits = Arrays.asList(em1,em2,em3, em4);
 
-        System.out.println("Unique elements: " + employeeLits);
+        System.out.println("Unique elements: " + returnUniqueElements(employeeLits));
 
     }
 }

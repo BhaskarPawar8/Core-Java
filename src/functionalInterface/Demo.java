@@ -11,6 +11,8 @@ public class Demo {
         A obj = i ->
                 System.out.println("In show .. " + i);
 
+        A obj1 = i -> System.out.println(" in shw");
+
         obj.show(5);
     }
 

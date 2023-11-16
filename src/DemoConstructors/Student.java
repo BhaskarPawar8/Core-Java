@@ -20,8 +20,8 @@ public class Student {
     public static void main(String[] args) {
         Student s1=new Student(11,"name1");
         Student s2=new Student(12,"name2",23);
-        s2.display();
         s1.display();
+        s2.display();
         System.out.println(s1.age);
 
 

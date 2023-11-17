@@ -1,6 +1,12 @@
-package MorganStanley.uniqueObjects;
+package Companies.MS.uniqueObjects;
 
 import java.util.*;
+
+/*
+Design a method which will take list of Employees and return the unique set of employees. Employee object has name and age as parameters.
+
+        (See if you can use hashCode and equals methods of object)
+*/
 
 public class TestEmployeeUnique {
 

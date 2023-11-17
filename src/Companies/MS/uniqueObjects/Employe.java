@@ -1,4 +1,4 @@
-package MorganStanley.uniqueObjects;
+package Companies.MS.uniqueObjects;
 
 public class Employe {
     String name;

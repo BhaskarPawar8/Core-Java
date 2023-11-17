@@ -1,4 +1,4 @@
-package MorganStanley;
+package Companies.MS;
 
 class A1 extends Thread{
 

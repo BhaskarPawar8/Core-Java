@@ -1,7 +1,9 @@
-package MorganStanley.uniqueIntegers;
+package Companies.MS.uniqueIntegers;
 
 import java.util.*;
-
+/*
+Design a method which will take list of integers and return the unique set of integers.
+*/
 public class UniqueElements {
 
     public Set<Integer> returnUniqueElements(Collection<Integer> inputtedIntegers) {

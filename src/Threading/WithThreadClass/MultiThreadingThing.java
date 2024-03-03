@@ -1,4 +1,4 @@
-package Multithreading.WithThreadClass;
+package Threading.WithThreadClass;
 
 public class MultiThreadingThing extends Thread{
 

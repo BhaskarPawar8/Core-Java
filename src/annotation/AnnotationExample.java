@@ -8,7 +8,7 @@ public class AnnotationExample {
 
         Class<MyClass> clazz = MyClass.class;
 
-        Method method = clazz.getMethod("anotherMethod");
+        Method method = clazz.getMethod("myMethod");
 
         MyAnnotation myAnnotation = method.getAnnotation(MyAnnotation.class);
 

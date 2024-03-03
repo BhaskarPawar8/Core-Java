@@ -15,7 +15,7 @@ public class ComparatorDemoInt {
         Comparator<Integer> comp = new Comparator<Integer>() {
             @Override
             public int compare(Integer i, Integer j) {
-                if( i%10 > j%10)
+                if( i > j)
                     return 1;
                 else
                     return -1;

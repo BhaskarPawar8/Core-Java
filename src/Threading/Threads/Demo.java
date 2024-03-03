@@ -1,4 +1,4 @@
-package Threads;
+package Threading.Threads;
 
 class A extends Thread{
 

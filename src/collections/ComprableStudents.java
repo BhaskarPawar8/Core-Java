@@ -35,10 +35,11 @@ public class ComprableStudents {
 
         List<Student> suds = new ArrayList<Student>();
 
-        Student sd1 = new Student(34,"Adam");
-        Student sd2 = new Student(56,"Zend");
-        Student sd3 = new Student(78,"Baberd");
         Student sd4 = new Student(98,"Atherton");
+        Student sd2 = new Student(56,"Zend");
+        Student sd1 = new Student(34,"Adam");
+        Student sd3 = new Student(78,"Baberd");
+
 
         suds.add(sd1);
         suds.add(sd2);

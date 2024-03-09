@@ -1,4 +1,4 @@
-package Companies.MS.uniqueIntegers;
+package Companies.MorganStanley.uniqueIntegers;
 
 import java.util.*;
 /*

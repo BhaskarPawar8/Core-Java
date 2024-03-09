@@ -1,4 +1,4 @@
-package Companies.MS.uniqueObjects;
+package Companies.MorganStanley.uniqueObjects;
 
 import java.util.*;
 

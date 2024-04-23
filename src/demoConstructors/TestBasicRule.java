@@ -1,4 +1,4 @@
-package DemoConstructors;
+package demoConstructors;
 
 public class TestBasicRule {
 

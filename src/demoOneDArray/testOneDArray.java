@@ -1,4 +1,4 @@
-package DemoOneDArray;
+package demoOneDArray;
 
 public class testOneDArray {
     public static void main(String[] args) {
@@ -25,7 +25,7 @@ public class testOneDArray {
         }
         for (int i = 0; i < anArray.length; i++) {
             System.out.println("Here we see FOR loop to print array ");
-            System.out.println("Array element " + i + "is " + anArray[i]);
+            System.out.println("Array element " + i + " is " + anArray[i]);
         }
 
     }

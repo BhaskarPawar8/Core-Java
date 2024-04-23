@@ -1,4 +1,4 @@
-package DemoOneDArray;
+package demoOneDArray;
 
 public class PassingAr_inMethod {
 

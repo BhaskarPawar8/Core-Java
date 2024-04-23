@@ -9,7 +9,7 @@ public class TestCapacity {
 
         sb1.insert(4, "o ");
         System.out.println(sb1);// prints Hello World
-    //capacity
+        //capacity
         System.out.println(sb.capacity()); // default value 16
 
         sb.append("Java");
@@ -22,28 +22,28 @@ public class TestCapacity {
         System.out.println(sb);
         System.out.println(sb.capacity());
 
-     //Reverse
-     StringBuilder sbRev =new StringBuilder("wild");
+        //Reverse
+        StringBuilder sbRev = new StringBuilder("wild");
         System.out.println(sbRev.reverse());
-     // delet
-     StringBuilder sbDel =new StringBuilder("Hello...  .world!");
-     sbDel.delete(5,7);
+        // delet
+        StringBuilder sbDel = new StringBuilder("Hello...  .world!");
+        sbDel.delete(5, 7);
         System.out.println(sbDel.toString());// toString converts sbDel to string ,sbDel is of type StringBuilder
-       String  sbStr = sbDel.toString(); // new varibale of type String can take whats in toString so as to match type on both sides .
+        String sbStr = sbDel.toString(); // new varibale of type String can take whats in toString so as to match type on both sides .
         System.out.println(sbStr);
-     //replace
-     StringBuilder sbRep = new StringBuilder("Hello Earth..!");
-     sbRep.replace(6,11,"world");
+        //replace
+        StringBuilder sbRep = new StringBuilder("Hello Earth..!");
+        sbRep.replace(6, 11, "world");
         System.out.println(sbRep);
         /*ensureCapacity(): The ensureCapacity() method of StringBuilder class ensures that the given capacity
          is the minimum to the current capacity. If it is greater than the current capacity, it increases the capacity by (old_capacity*2)+2 e.g. at current capacity 16, it becomes (16*2)+2 which is 34.
          */
-    //EnsureCapacity
-   // go through StringBuilder constructors empty= 16,charSequence =specified capcity +16 , string= specified capcity +16,intCapacity = int capacity
+        //EnsureCapacity
+        // go through StringBuilder constructors empty= 16,charSequence =specified capcity +16 , string= specified capcity +16,intCapacity = int capacity
         //charSequence is interface
 
 
-        StringBuilder sbEn =new StringBuilder("12345678");
+        StringBuilder sbEn = new StringBuilder("12345678");
         System.out.println(sbEn.capacity());// cap is 24
         sbEn.ensureCapacity(51);
         System.out.println(sbEn.capacity());

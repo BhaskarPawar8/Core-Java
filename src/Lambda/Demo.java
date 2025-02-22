@@ -1,4 +1,4 @@
-package functionalInterface;
+package Lambda;
 
 @FunctionalInterface
 interface A{
@@ -8,10 +8,8 @@ interface A{
 public class Demo {
 
     public static void main(String[] args) {
-        A obj = i ->
+        A obj = (i) ->
                 System.out.println("In show .. " + i);
-
-        A obj1 = i -> System.out.println(" in shw");
 
         obj.show(5);
     }

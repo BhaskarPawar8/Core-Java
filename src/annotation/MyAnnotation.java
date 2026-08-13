@@ -8,5 +8,5 @@ import java.lang.annotation.Target;
 @Retention(RetentionPolicy.RUNTIME)
 @Target(ElementType.METHOD)
 public @interface MyAnnotation {
-    String value() default "Default value 1";
+    String value() default "Default value when not passed in annotation constuctor";
 }

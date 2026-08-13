@@ -23,10 +23,10 @@ public class CopyAL {
         myNewArrayList.add("3");
         myNewArrayList.add("4");
 
-        Collections.copy(myArrayList, myNewArrayList);
+        Collections.copy(myNewArrayList,myArrayList);
 
 
-        System.out.println(myArrayList);
+        System.out.println(myNewArrayList);
 
 
     }
